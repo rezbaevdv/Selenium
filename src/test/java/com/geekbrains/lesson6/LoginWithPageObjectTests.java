@@ -55,11 +55,12 @@ public class LoginWithPageObjectTests extends BaseTest{
         new ProjectSubMenu(driver).creteProject();
         new CreateProject(driver).creteProject();
         new CreateProjectPage(driver)
-                .fillDescriptionName("проект2")
+                .fillDescriptionName("проект4")
                 .selectOrganization()
                 .fillDescriptionCompany("Континент")
                 .waitResult()
                 .selectResultText()
+                .waitResultPrimaryContact()
                 .primaryContactPerson()
                 .fillDescriptionPrimaryContact("Frolov")
                 .waitResult()

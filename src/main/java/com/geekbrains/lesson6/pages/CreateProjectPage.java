@@ -41,9 +41,16 @@ public class CreateProjectPage extends BaseView {
         selectResult.click();
         return this;
     }
+    public CreateProjectPage waitResultPrimaryContact() {
+        webDriverWait.until(
+                ExpectedConditions.presenceOfElementLocated(
+                        new CreateProjectPage(driver).primaryContactPersonButtonLocation));
+        return this;
+    }
 
     @FindBy(xpath = "//div[@class='select2-container select2']")
     public WebElement primaryContactPersonButton;
+    public By primaryContactPersonButtonLocation = By.xpath("//div[@class='select2-container select2']");
     public CreateProjectPage primaryContactPerson() {
         primaryContactPersonButton.click();
         return this;
@@ -57,34 +64,54 @@ public class CreateProjectPage extends BaseView {
     @FindBy(name = "crm_project[businessUnit]")
     public WebElement selectBusinessUnit;
     public CreateProjectPage selectBusinessUnitText(String businessUnitText) {
+        webDriverWait.until(
+                ExpectedConditions.presenceOfElementLocated(
+                        new CreateProjectPage(driver).selectOptionLocator));
         selectBusinessUnit.sendKeys(businessUnitText);
         return this;
     }
     @FindBy(name = "crm_project[curator]")
     public WebElement selectCurator;
     public CreateProjectPage selectCuratorText(String curatorText) {
+        webDriverWait.until(
+                ExpectedConditions.presenceOfElementLocated(
+                        new CreateProjectPage(driver).selectOptionLocator));
         selectCurator.sendKeys(curatorText);
         return this;
     }
 
-    @FindBy(name = "crm_project[curator]")
+    public By selectOptionLocator = By.xpath("//*[@name]/option[@selected]");
+    public CreateProjectPage waitSelectOptionFrame() {
+        return this;
+    }
+
+    @FindBy(name = "crm_project[rp]")
     public WebElement selectProjectManager;
     public CreateProjectPage selectProjectManagerText(String projectManagerText) {
+        webDriverWait.until(
+                ExpectedConditions.presenceOfElementLocated(
+                        new CreateProjectPage(driver).selectOptionLocator));
         selectProjectManager.sendKeys(projectManagerText);
         return this;
     }
 
-    @FindBy(name = "crm_project[curator]")
+    @FindBy(name = "crm_project[administrator]")
     public WebElement selectAdministrator;
     public CreateProjectPage selectAdministratorText(String administratorText) {
+        webDriverWait.until(
+                ExpectedConditions.presenceOfElementLocated(
+                        new CreateProjectPage(driver).selectOptionLocator));
         selectAdministrator.sendKeys(administratorText);
         return this;
     }
 
-    @FindBy(name = "crm_project[curator]")
+    @FindBy(name = "crm_project[manager]")
     public WebElement selectManager;
     public By selectManagerLocator = By.name("crm_project[curator]");
     public CreateProjectPage selectManagerText(String managerText) {
+        webDriverWait.until(
+                ExpectedConditions.presenceOfElementLocated(
+                        new CreateProjectPage(driver).selectOptionLocator));
         selectManager.sendKeys(managerText);
         return this;
     }
