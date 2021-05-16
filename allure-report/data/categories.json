@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Expected condition failed: waiting for presence of element located by: By.xpath: //*[text()='Проект сохранен'] (tried for 5 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "createNewProject()",
+        "uid" : "904c1b133aa6a547",
+        "parentUid" : "b964651706de2b74594e6ddf09b1d375",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621190000682,
+          "stop" : 1621190029241,
+          "duration" : 28559
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b964651706de2b74594e6ddf09b1d375"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

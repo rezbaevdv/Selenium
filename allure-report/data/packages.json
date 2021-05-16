@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.geekbrains.lesson6.LoginWithPageObjectTests",
+    "children" : [ {
+      "name" : "createNewCompanyContactUser",
+      "uid" : "c9c362d09312d65d",
+      "parentUid" : "03bf46ba1552c2c7d45be8b275b4882d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621189975212,
+        "stop" : 1621190000587,
+        "duration" : 25375
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "createNewProject",
+      "uid" : "904c1b133aa6a547",
+      "parentUid" : "03bf46ba1552c2c7d45be8b275b4882d",
+      "status" : "broken",
+      "time" : {
+        "start" : 1621190000682,
+        "stop" : 1621190029241,
+        "duration" : 28559
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "com.geekbrains.lesson6.LoginWithPageObjectTests"
+  } ]
+}

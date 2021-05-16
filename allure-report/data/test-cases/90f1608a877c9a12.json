@@ -1,0 +1,354 @@
+{
+  "uid" : "90f1608a877c9a12",
+  "name" : "createNewCompanyContactUser()",
+  "fullName" : "com.geekbrains.lesson6.LoginWithPageObjectTests.createNewCompanyContactUser",
+  "historyId" : "2492113f88716040576b02288e7b4d83",
+  "time" : {
+    "start" : 1621188728134,
+    "stop" : 1621188749606,
+    "duration" : 21472
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Перед кликом на элеиент с текстом: Войти",
+      "time" : {
+        "start" : 1621188734869,
+        "stop" : 1621188734869,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Клик на подменю 'Контактные лица'",
+      "time" : {
+        "start" : 1621188738935,
+        "stop" : 1621188741058,
+        "duration" : 2123
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Перед кликом на элеиент с текстом: Контактные лица",
+        "time" : {
+          "start" : 1621188738985,
+          "stop" : 1621188738985,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "fa83b8d9dbf043b8",
+        "name" : "Скриншот ошибки: ",
+        "source" : "fa83b8d9dbf043b8.png",
+        "type" : "image/png",
+        "size" : 83695
+      }, {
+        "uid" : "e3738ef4008ce825",
+        "name" : "Скриншот ошибки: ",
+        "source" : "e3738ef4008ce825.png",
+        "type" : "image/png",
+        "size" : 83646
+      }, {
+        "uid" : "c64812dcf64b192c",
+        "name" : "Скриншот ошибки: ",
+        "source" : "c64812dcf64b192c.png",
+        "type" : "image/png",
+        "size" : 83653
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 3
+    }, {
+      "name" : "Клик на кнопку 'Создать контактное лицо'",
+      "time" : {
+        "start" : 1621188741058,
+        "stop" : 1621188742915,
+        "duration" : 1857
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Перед кликом на элеиент с текстом: Создать контактное лицо",
+        "time" : {
+          "start" : 1621188741089,
+          "stop" : 1621188741089,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "dd9cc5acae948f04",
+        "name" : "Скриншот ошибки: ",
+        "source" : "dd9cc5acae948f04.png",
+        "type" : "image/png",
+        "size" : 139684
+      }, {
+        "uid" : "79a67ab083a5eb61",
+        "name" : "Скриншот ошибки: ",
+        "source" : "79a67ab083a5eb61.png",
+        "type" : "image/png",
+        "size" : 140001
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "Ввод в поле 'Фамилия:",
+      "time" : {
+        "start" : 1621188742915,
+        "stop" : 1621188743003,
+        "duration" : 88
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "DescriptionLastName",
+        "value" : "Резбаев"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Ввод в поле 'Имя:",
+      "time" : {
+        "start" : 1621188743003,
+        "stop" : 1621188743119,
+        "duration" : 116
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "DescriptionFirstName",
+        "value" : "Danil"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Ввод в поле 'Организация:",
+      "time" : {
+        "start" : 1621188743119,
+        "stop" : 1621188743231,
+        "duration" : 112
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Перед кликом на элеиент с текстом: Укажите организацию",
+        "time" : {
+          "start" : 1621188743168,
+          "stop" : 1621188743168,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Ввод текста",
+      "time" : {
+        "start" : 1621188743232,
+        "stop" : 1621188743322,
+        "duration" : 90
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "DescriptionCompany",
+        "value" : "Континент+"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Перед кликом на элеиент с текстом: \"Континент+\"",
+      "time" : {
+        "start" : 1621188745322,
+        "stop" : 1621188745322,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Ввод в поле 'Должность:",
+      "time" : {
+        "start" : 1621188745389,
+        "stop" : 1621188745490,
+        "duration" : 101
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "descriptionJobTitle",
+        "value" : "QA"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Перед кликом на элеиент с текстом: Сохранить и закрыть",
+      "time" : {
+        "start" : 1621188745536,
+        "stop" : 1621188745536,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "e9dc063b94dafa5",
+      "name" : "Скриншот ошибки: ",
+      "source" : "e9dc063b94dafa5.png",
+      "type" : "image/png",
+      "size" : 96940
+    }, {
+      "uid" : "18024d24b031470d",
+      "name" : "Скриншот ошибки: ",
+      "source" : "18024d24b031470d.png",
+      "type" : "image/png",
+      "size" : 97201
+    }, {
+      "uid" : "fa33517a316f3bda",
+      "name" : "Скриншот ошибки: ",
+      "source" : "fa33517a316f3bda.png",
+      "type" : "image/png",
+      "size" : 97227
+    }, {
+      "uid" : "f489b00b54edf12",
+      "name" : "Скриншот ошибки: ",
+      "source" : "f489b00b54edf12.png",
+      "type" : "image/png",
+      "size" : 96804
+    }, {
+      "uid" : "e7b61681eb48ae3b",
+      "name" : "Скриншот ошибки: ",
+      "source" : "e7b61681eb48ae3b.png",
+      "type" : "image/png",
+      "size" : 96860
+    }, {
+      "uid" : "b8fe1e158f498188",
+      "name" : "Скриншот ошибки: ",
+      "source" : "b8fe1e158f498188.png",
+      "type" : "image/png",
+      "size" : 96851
+    }, {
+      "uid" : "d0013eedca6a72e9",
+      "name" : "Скриншот ошибки: ",
+      "source" : "d0013eedca6a72e9.png",
+      "type" : "image/png",
+      "size" : 96810
+    }, {
+      "uid" : "203b001166f652d6",
+      "name" : "Скриншот ошибки: ",
+      "source" : "203b001166f652d6.png",
+      "type" : "image/png",
+      "size" : 96792
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 13,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 13
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Тестирование создание нового контактного лица"
+  }, {
+    "name" : "host",
+    "value" : "Rezbaevdv"
+  }, {
+    "name" : "thread",
+    "value" : "9036@Rezbaevdv.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.geekbrains.lesson6.LoginWithPageObjectTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.geekbrains.lesson6.LoginWithPageObjectTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "createNewCompanyContactUser"
+  }, {
+    "name" : "suite",
+    "value" : "com.geekbrains.lesson6.LoginWithPageObjectTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "90f1608a877c9a12.json",
+  "parameterValues" : [ ]
+}

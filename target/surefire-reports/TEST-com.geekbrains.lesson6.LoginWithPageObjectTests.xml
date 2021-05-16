@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.geekbrains.lesson6.LoginWithPageObjectTests" time="54.841" tests="2" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\rezba\.m2\repository\webdriver\chromedriver\win32\90.0.4430.24\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="D:\QA\3_course_selenium\example\target\test-classes;D:\QA\3_course_selenium\example\target\classes;C:\Users\rezba\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\rezba\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\rezba\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\rezba\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\rezba\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\rezba\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\rezba\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\rezba\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\rezba\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\rezba\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\rezba\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\rezba\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\rezba\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\rezba\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\rezba\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\rezba\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\rezba\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\rezba\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\rezba\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\rezba\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\rezba\.m2\repository\ru\yandex\qatools\htmlelements\htmlelements-matchers\1.19\htmlelements-matchers-1.19.jar;C:\Users\rezba\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\Users\rezba\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\rezba\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\rezba\.m2\repository\ru\yandex\qatools\htmlelements\htmlelements-java\1.19\htmlelements-java-1.19.jar;C:\Users\rezba\.m2\repository\io\github\bonigarcia\webdrivermanager\3.8.1\webdrivermanager-3.8.1.jar;C:\Users\rezba\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\rezba\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\rezba\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\rezba\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\rezba\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\rezba\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\rezba\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\rezba\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\rezba\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\rezba\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\rezba\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\rezba\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\rezba\.m2\repository\org\assertj\assertj-core\3.19.0\assertj-core-3.19.0.jar;C:\Users\rezba\.m2\repository\org\slf4j\slf4j-simple\1.7.30\slf4j-simple-1.7.30.jar;C:\Users\rezba\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.2\junit-jupiter-api-5.6.2.jar;C:\Users\rezba\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\rezba\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\rezba\.m2\repository\org\junit\platform\junit-platform-commons\1.8.0-M1\junit-platform-commons-1.8.0-M1.jar;C:\Users\rezba\.m2\repository\io\qameta\allure\allure-junit5\2.13.10\allure-junit5-2.13.10.jar;C:\Users\rezba\.m2\repository\io\qameta\allure\allure-junit-platform\2.13.10\allure-junit-platform-2.13.10.jar;C:\Users\rezba\.m2\repository\io\qameta\allure\allure-test-filter\2.13.10\allure-test-filter-2.13.10.jar;C:\Users\rezba\.m2\repository\org\junit\platform\junit-platform-launcher\1.7.1\junit-platform-launcher-1.7.1.jar;C:\Users\rezba\.m2\repository\org\junit\platform\junit-platform-engine\1.7.1\junit-platform-engine-1.7.1.jar;C:\Users\rezba\.m2\repository\io\qameta\allure\allure-java-commons\2.13.10\allure-java-commons-2.13.10.jar;C:\Users\rezba\.m2\repository\io\qameta\allure\allure-model\2.13.10\allure-model-2.13.10.jar;C:\Users\rezba\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\rezba\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\rezba\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\rezba\.m2\repository\org\apache\tika\tika-core\1.26\tika-core-1.26.jar;C:\Users\rezba\.m2\repository\org\jooq\joor-java-8\0.9.14\joor-java-8-0.9.14.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Yekaterinburg"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_181\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\rezba\AppData\Local\Temp\surefire5508712846438992344\surefirebooter4405730436824111905.jar C:\Users\rezba\AppData\Local\Temp\surefire5508712846438992344 2021-05-16T23-32-51_551-jvmRun1 surefire7297167827656832388tmp surefire_04813361069787169076tmp"/>
+    <property name="surefire.test.class.path" value="D:\QA\3_course_selenium\example\target\test-classes;D:\QA\3_course_selenium\example\target\classes;C:\Users\rezba\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\rezba\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\rezba\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\rezba\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\rezba\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\rezba\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\rezba\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\rezba\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\rezba\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\rezba\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\rezba\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\rezba\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\rezba\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\rezba\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\rezba\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\rezba\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\rezba\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\rezba\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\rezba\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\rezba\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\rezba\.m2\repository\ru\yandex\qatools\htmlelements\htmlelements-matchers\1.19\htmlelements-matchers-1.19.jar;C:\Users\rezba\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\Users\rezba\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\rezba\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\rezba\.m2\repository\ru\yandex\qatools\htmlelements\htmlelements-java\1.19\htmlelements-java-1.19.jar;C:\Users\rezba\.m2\repository\io\github\bonigarcia\webdrivermanager\3.8.1\webdrivermanager-3.8.1.jar;C:\Users\rezba\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\rezba\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\rezba\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\rezba\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\rezba\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\rezba\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\rezba\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\rezba\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\rezba\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\rezba\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\rezba\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\rezba\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\rezba\.m2\repository\org\assertj\assertj-core\3.19.0\assertj-core-3.19.0.jar;C:\Users\rezba\.m2\repository\org\slf4j\slf4j-simple\1.7.30\slf4j-simple-1.7.30.jar;C:\Users\rezba\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.2\junit-jupiter-api-5.6.2.jar;C:\Users\rezba\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\rezba\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\rezba\.m2\repository\org\junit\platform\junit-platform-commons\1.8.0-M1\junit-platform-commons-1.8.0-M1.jar;C:\Users\rezba\.m2\repository\io\qameta\allure\allure-junit5\2.13.10\allure-junit5-2.13.10.jar;C:\Users\rezba\.m2\repository\io\qameta\allure\allure-junit-platform\2.13.10\allure-junit-platform-2.13.10.jar;C:\Users\rezba\.m2\repository\io\qameta\allure\allure-test-filter\2.13.10\allure-test-filter-2.13.10.jar;C:\Users\rezba\.m2\repository\org\junit\platform\junit-platform-launcher\1.7.1\junit-platform-launcher-1.7.1.jar;C:\Users\rezba\.m2\repository\org\junit\platform\junit-platform-engine\1.7.1\junit-platform-engine-1.7.1.jar;C:\Users\rezba\.m2\repository\io\qameta\allure\allure-java-commons\2.13.10\allure-java-commons-2.13.10.jar;C:\Users\rezba\.m2\repository\io\qameta\allure\allure-model\2.13.10\allure-model-2.13.10.jar;C:\Users\rezba\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\rezba\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\rezba\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\rezba\.m2\repository\org\apache\tika\tika-core\1.26\tika-core-1.26.jar;C:\Users\rezba\.m2\repository\org\jooq\joor-java-8\0.9.14\joor-java-8-0.9.14.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\rezba"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.8.0_181\jre"/>
+    <property name="basedir" value="D:\QA\3_course_selenium\example"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\rezba\AppData\Local\Temp\surefire5508712846438992344\surefirebooter4405730436824111905.jar;C:\Users\rezba\.m2\repository/org/aspectj/aspectjweaver/1.9.5/aspectjweaver-1.9.5.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_181\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="user.name" value="rezba"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_181\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="localRepository" value="C:\Users\rezba\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\rezba\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="user.dir" value="D:\QA\3_course_selenium\example"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_181\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\allure-commandline\allure-2.13.9\bin;C:\apache-maven-3.8.1\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_181\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="createNewCompanyContactUser" classname="com.geekbrains.lesson6.LoginWithPageObjectTests" time="25.47">
+    <system-err><![CDATA[мая 16, 2021 11:32:54 PM java.util.prefs.WindowsPreferences <init>
+WARNING: Could not open/create prefs root node Software\JavaSoft\Prefs at root 0x80000002. Windows RegCreateKeyEx(...) returned error code 5.
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 90.0.4430.24 (since Google Chrome 90 is installed in your machine)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\rezba\.m2\repository\webdriver\chromedriver\win32\90.0.4430.24\chromedriver.exe
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 27433
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+мая 16, 2021 11:32:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[main] INFO org.openqa.selenium.WebDriver - Перед кликом на элеиент с текстом: Войти
+[main] INFO org.openqa.selenium.WebDriver - Перед кликом на элеиент с текстом: Контактные лица
+[main] INFO org.openqa.selenium.WebDriver - Перед кликом на элеиент с текстом: Создать контактное лицо
+[main] INFO org.openqa.selenium.WebDriver - Перед кликом на элеиент с текстом: Укажите организацию
+[main] INFO org.openqa.selenium.WebDriver - Перед кликом на элеиент с текстом: "Континент+"
+[main] INFO org.openqa.selenium.WebDriver - Перед кликом на элеиент с текстом: Сохранить и закрыть
+]]></system-err>
+  </testcase>
+  <testcase name="createNewProject" classname="com.geekbrains.lesson6.LoginWithPageObjectTests" time="28.564">
+    <error type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[text()='Проект сохранен'] (tried for 5 second(s) with 500 milliseconds interval)
+	at com.geekbrains.lesson6.LoginWithPageObjectTests.createNewProject(LoginWithPageObjectTests.java:78)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Проект сохранен']"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'REZBAEVDV', ip: '192.168.165.1', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\rezba\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54348}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 12ba5eab0059e403687753cfbc6682d3
+*** Element info: {Using=xpath, value=//*[text()='Проект сохранен']}
+	at com.geekbrains.lesson6.LoginWithPageObjectTests.createNewProject(LoginWithPageObjectTests.java:78)
+]]></error>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 18421
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+мая 16, 2021 11:33:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[main] INFO org.openqa.selenium.WebDriver - Перед кликом на элеиент с текстом: Войти
+[main] INFO org.openqa.selenium.WebDriver - Перед кликом на элеиент с текстом: Мои проекты
+[main] INFO org.openqa.selenium.WebDriver - Перед кликом на элеиент с текстом: Создать проект
+[main] INFO org.openqa.selenium.WebDriver - Перед кликом на элеиент с текстом: Укажите организацию
+[main] INFO org.openqa.selenium.WebDriver - Перед кликом на элеиент с текстом: "Континент+"
+[main] INFO org.openqa.selenium.WebDriver - Перед кликом на элеиент с текстом: 
+[main] INFO org.openqa.selenium.WebDriver - Перед кликом на элеиент с текстом: Frolov Alex
+[main] INFO org.openqa.selenium.WebDriver - Перед кликом на элеиент с текстом: Сохранить и закрыть
+]]></system-err>
+  </testcase>
+</testsuite>

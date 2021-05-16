@@ -1,0 +1,39 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Тестирование создание нового контактного лица",
+    "children" : [ {
+      "name" : "createNewCompanyContactUser()",
+      "uid" : "c9c362d09312d65d",
+      "parentUid" : "da4549a9b655ea8919d4cbad8812d500",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621189975212,
+        "stop" : 1621190000587,
+        "duration" : 25375
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "da4549a9b655ea8919d4cbad8812d500"
+  }, {
+    "name" : "Тестирование создание нового проекта",
+    "children" : [ {
+      "name" : "createNewProject()",
+      "uid" : "904c1b133aa6a547",
+      "parentUid" : "c1f742723e5f131c0c73f90dd547eb11",
+      "status" : "broken",
+      "time" : {
+        "start" : 1621190000682,
+        "stop" : 1621190029241,
+        "duration" : 28559
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c1f742723e5f131c0c73f90dd547eb11"
+  } ]
+}

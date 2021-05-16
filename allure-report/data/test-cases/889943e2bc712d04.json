@@ -1,0 +1,186 @@
+{
+  "uid" : "889943e2bc712d04",
+  "name" : "createNewCompanyContactUser()",
+  "fullName" : "com.geekbrains.lesson6.LoginWithPageObjectTests.createNewCompanyContactUser",
+  "historyId" : "2492113f88716040576b02288e7b4d83",
+  "time" : {
+    "start" : 1621186733829,
+    "stop" : 1621186758398,
+    "duration" : 24569
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Клик на подменю 'Контактные лица'",
+      "time" : {
+        "start" : 1621186748074,
+        "stop" : 1621186750314,
+        "duration" : 2240
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Клик на кнопку 'Создать контактное лицо'",
+      "time" : {
+        "start" : 1621186750314,
+        "stop" : 1621186752323,
+        "duration" : 2009
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Ввод в поле 'Фамилия:",
+      "time" : {
+        "start" : 1621186752323,
+        "stop" : 1621186752387,
+        "duration" : 64
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "DescriptionLastName",
+        "value" : "Резбаев"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Ввод в поле 'Имя:",
+      "time" : {
+        "start" : 1621186752387,
+        "stop" : 1621186752464,
+        "duration" : 77
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "DescriptionFirstName",
+        "value" : "Danil"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Ввод в поле 'Организация:",
+      "time" : {
+        "start" : 1621186752469,
+        "stop" : 1621186752551,
+        "duration" : 82
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Ввод текста",
+      "time" : {
+        "start" : 1621186752551,
+        "stop" : 1621186752651,
+        "duration" : 100
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "DescriptionCompany",
+        "value" : "Континент+"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Ввод в поле 'Должность:",
+      "time" : {
+        "start" : 1621186754342,
+        "stop" : 1621186754437,
+        "duration" : 95
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "descriptionJobTitle",
+        "value" : "QA"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Тестирование заявки на расход"
+  }, {
+    "name" : "host",
+    "value" : "Rezbaevdv"
+  }, {
+    "name" : "thread",
+    "value" : "14344@Rezbaevdv.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.geekbrains.lesson6.LoginWithPageObjectTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.geekbrains.lesson6.LoginWithPageObjectTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "createNewCompanyContactUser"
+  }, {
+    "name" : "suite",
+    "value" : "com.geekbrains.lesson6.LoginWithPageObjectTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "889943e2bc712d04.json",
+  "parameterValues" : [ ]
+}
