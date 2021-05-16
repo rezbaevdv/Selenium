@@ -1,0 +1,41 @@
+{
+  "796e2600068870fa405336082f23413" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "904c1b133aa6a547",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for presence of element located by: By.xpath: //*[text()='Проект сохранен'] (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1621190000682,
+        "stop" : 1621190029241,
+        "duration" : 28559
+      }
+    } ]
+  },
+  "2492113f88716040576b02288e7b4d83" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c9c362d09312d65d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621189975212,
+        "stop" : 1621190000587,
+        "duration" : 25375
+      }
+    } ]
+  }
+}
